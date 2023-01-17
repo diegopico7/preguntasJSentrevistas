@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preguntas javascript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h1>Javascript preguntas de entrevistas</h1>
+  <ol>
+    <dt>1- Es javascript case sensitive? distingue entre mayusculas y minisculas</dt>
+    <dd>Si lo es. True</dd>
+    <dt>2- Para que se usa reverse en un array</dt>
+    <dd>Reverse se usa para para revertir un elemento dentro de un arreglo. Ejemplo</dd>
+    <dd>let texto = ["hola", "Chau"];
+
+      const reversive = () => {
+      return texto.reverse("");
+      };
+      console.log(reversive());
+      Mostrará por consola (Chau, hola)</dd>
+    <dt>3- Enumera los tipos de funciones que se usan en js</dt>
+    <dd>Funciones anónimas (anonymous function)</dd>
+    <dd> const anonimo = function () {
+      console.log("Funcion anónima");
+      };</dd>
+    <dd>Funciones declaradas (named function)</dd>
+    <dd> function declarada() {
+      console.log("Funcion declarada");
+      }</dd>
+    <dd>Funciones Flechas (arrows function)</dd>
+    <dd>const arrow = () => {
+      console.log("Funcion flecha");
+      };</dd>
+    <dt>4- Qué es una arrow function</dt>
+    <dd>Una función de flecha es una sintaxis más corta para una expresión de función y no tiene su propio this,
+      argumentos,
+      super, o new.target
+      Estas funciones son más adecuadas para funciones que no son métodos y no pueden utilizarse como constructores.
+    </dd>
+    <dt>5- Explique hoisting en js</dt>
+    <dd> hoisting es un comportamiento por defecto de js donde todas las declaraciones de variables y funciones se
+      mueven a la
+      parte superior.
+      esto significa que independientemente de donde se declaren las variables y las funciones, se mueven en la parte
+      superior
+      del ámbito, que puede ser tanto local como global.</dd>
+    <dt>6- Que es la propiedad NaN en javascript </dt>
+    <dd>NaN representa "Not a Number", indica que el valor no es un número legal</dd>
+    <dt>7- Cuales son algunas de las ventajas de usar javascript externo</dt>
+    <dd>Usar un archivo externo de javascript separado de un html una de las ventajas es que podes reutilizar el codigo,
+      se tiene una mayor y más comoda legibilidad, permite tanto al diseñador y desarrollador una mejor y clara
+      colaboración </dd>
+    <dt>8- Para que se usa una funcion constructor en js</dt>
+    <dd>Constructor function se usa para crear objetos en js, cuando se usan? para cuando queremos crear multiples
+      objetos que tienen similares propiedades y métodos</dd>
+    <dt>9- Que es DOM</dt>
+    <dd>DOM = document object model </dd>
+    <dd>dom es una interfaz de programación para documentos html y xml
+      cuando el navegador intenta renderizar un documento html, crea un objeto basado en el contenido html llamado dom.
+      usando
+      este dom podemos manipular o cambiar varios elementos dentro de los documentos html.</dd>
+    <dt>10- Crear un nuevo elemento al final de un arreglo</dt>
+    <dd>con el metodo .push vamos a crear un elemento al final del array</dd>
+    <dd>array.push(item1, item2... itemx)</dd>
+    <dt>11- Borrar elemento al final de un arreglo</dt>
+    <dd>con el metodo .pop</dd>
+    <dd>array.pop</dd>
+    <dt>12- Que es una variable sin declarar o undeclared y una variable indefinida o undefined en js</dt>
+    <dd>Una variable sin declarar en js es una variable que no existe</dd>
+    <dd>Una variable indefinida o undefined es una variable que si esta declarada en el programa pero no tienen ningun
+      valor</dd>
+    <dt>Que tipos de datos hay en js</dt>
+    <dd>primitivos:</dd>
+    <dd>String, number, boolean, null, undefined, NaN</dd>
+    <dd>Compuesto</dd>
+    <dd>Object = { } , array = [ ], function (){ } class{ } etc.. </dd>
+    <dt>Que es una variable</dt>
+    <dd></dd>
+    <dt>Diferencias entre VAR, LET, CONST</dt>
+    <dd></dd>
+  </ol>
+
+
+
+
+
+  <script src="javascript.js"></script>
+</body>
+
+</html>
